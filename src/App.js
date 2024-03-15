@@ -1,0 +1,17 @@
+import logo from './logo.svg';
+import './App.css';
+import Header from './components/Header';
+import Poster from './components/Poster';
+
+function App() {
+  return (
+   <>
+  
+   <Header/>
+   <Poster/>
+  
+   </>
+  );
+}
+
+export default App;
